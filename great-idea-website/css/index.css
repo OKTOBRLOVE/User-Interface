@@ -64,3 +64,172 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+
+
+.container {
+	width: 900px;
+	margin: auto;
+	
+}
+
+header nav {
+	display: inline-block;
+	color: gray;
+}
+
+header nav a {
+	margin: 0 5px;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+
+nav a:hover {
+	background: skyblue;
+	border-radius: 40%;
+}
+
+
+
+nav {
+	margin-top: 50px;
+}
+
+
+.button{
+	border: 5px dotted red;
+	text-decoration: underline;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #7cacde;
+	margin-left: 190px;
+	
+	
+}
+
+.button:hover {
+	background: skyblue;
+	border-radius: 40%;
+}
+
+
+.stuff img {
+	position: absolute;
+	top: 160px;
+	bottom: 0px;
+	padding: 0px 0px 45px 160px;
+}
+
+
+.middle-img {
+margin-top: -50px;
+margin-bottom: 30px;
+width: 900px;
+}
+
+
+.stuff{
+	margin-top: 100px;
+	width: 55%;
+}
+
+.title {	font-family: 'Bangers';
+	font-size: 650%;
+	text-align: center;
+	margin-bottom: 30px;
+	margin: auto;
+}
+
+.firstSect {
+	width: 50%;
+	display: inline-block;
+	top: 20px;
+	left: 10px;
+	position: relative;
+	bottom: -20px;
+}
+
+.secSect {
+	width: 50%;
+	left: 450px;
+	display: inline-block;
+	position: relative;
+	bottom: -20px;
+	top: -75px;
+	margin: auto;
+}
+
+.thirdSect {
+	width: 33.3%;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+}
+
+.fourthSect {
+	width: 33.3%;
+	margin: auto;
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+}
+
+.fifthSect {
+	width: 16%;
+	margin: auto;
+	display: inline-block;
+	position: absolute;
+	padding: 5px;
+}
+
+
+.hr1 {
+
+	position: relative;
+	margin-top: 150px;
+}
+
+.hr2 {
+	position: relative;
+	top: 10px;
+}
+
+
+
+.copyright {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.contact {
+	
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.contact p{
+	
+	line-height: 40px;
+}
